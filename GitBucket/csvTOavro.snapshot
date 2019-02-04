@@ -71,7 +71,7 @@
       "bends" : [ ],
       "componentType" : "CONNECTION",
       "destination" : {
-        "comments" : "",
+        "comments" : "comments in piuFile",
         "groupId" : "a28063b8-3da6-3416-939a-44cebfcce6f3",
         "id" : "c506bdd1-9516-3419-a2a3-d780e20ad73d",
         "name" : "PutFile",
@@ -431,7 +431,7 @@
         "group" : "org.apache.nifi",
         "version" : "1.8.0"
       },
-      "comments" : "",
+      "comments" : "comments in piuFile",
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "ALL",
