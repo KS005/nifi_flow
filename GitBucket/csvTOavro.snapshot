@@ -28,7 +28,7 @@
       "prioritizers" : [ ],
       "selectedRelationships" : [ "success" ],
       "source" : {
-        "comments" : "",
+        "comments" : "none",
         "groupId" : "a28063b8-3da6-3416-939a-44cebfcce6f3",
         "id" : "fa4f7839-4302-399d-83fe-513722c681b5",
         "name" : "InferAvroSchema",
@@ -41,7 +41,7 @@
       "bends" : [ ],
       "componentType" : "CONNECTION",
       "destination" : {
-        "comments" : "",
+        "comments" : "none",
         "groupId" : "a28063b8-3da6-3416-939a-44cebfcce6f3",
         "id" : "fa4f7839-4302-399d-83fe-513722c681b5",
         "name" : "InferAvroSchema",
@@ -116,7 +116,7 @@
         "group" : "org.apache.nifi",
         "version" : "1.8.0"
       },
-      "comments" : "",
+      "comments" : "none",
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "ALL",
@@ -131,6 +131,7 @@
       "properties" : {
         "Schema Output Destination" : "flowfile-content",
         "Get CSV Header Definition From Data" : "true",
+        "Avro Record Name" : "",
         "Charset" : "UTF-8",
         "CSV Header Line Skip Count" : "0",
         "CSV delimiter" : ",",
